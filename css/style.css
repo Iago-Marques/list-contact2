@@ -1,0 +1,88 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Tajawal", sans-serif;
+}
+
+body{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(45, 165, 212, 0.692);
+}
+
+.container{
+   width: 1000px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 25px;
+}
+
+.container h1{
+   font-size: 50px;
+   text-align: center;
+   padding-bottom: 25px;
+}
+
+.list-contact{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 15px;
+}
+
+.list-contact li{
+   background-color: aliceblue;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   
+}
+
+.img-list-contact{
+   width: 300px;
+   height: 50%;
+   border-radius: 8px 8px 0 0;
+}
+
+.img-contact{
+   border-radius: 50%;
+   max-width: 80px;
+   position: absolute;
+   top: 38%
+}
+
+.list-contact h2{
+   font-size: 25px;
+   font-weight: 500;
+   padding: 45px 0 10px 0;
+}
+
+.list-contact p{
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.icons-contact{
+   background-color: #e3e3e3;
+   height: 60px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 20px;
+   border-radius: 0 0 8px 8px;
+   
+}
+
+.icons-contact img{
+   width: 16px;
+   cursor: pointer;
+
+}
