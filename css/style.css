@@ -6,7 +6,6 @@
 }
 
 body{
-   height: 100vh;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -17,8 +16,6 @@ body{
    width: 1000px;
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: center;
    padding: 25px;
 }
 
@@ -78,7 +75,6 @@ body{
    align-items: center;
    margin-top: 20px;
    border-radius: 0 0 8px 8px;
-   
 }
 
 .icons-contact img{
